@@ -8,7 +8,6 @@ Forex_AlgoTrading is a Forex Strategy Backtest tools based on Event Drive Modelã
 4.  **Spread and commission** customization supported.  
 5.  **Parameters optimization** is supported using multiprocessing.(Not finished yet)
 6.  The Strategy API is open soured and you can use any tech you want like AI and so on.
----
 
 ## Environment Required:
 Anaconda of python 2.7 version is recommended.
