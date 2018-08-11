@@ -1,4 +1,3 @@
-# readmetest
 # Forex_AlgoTrading
 ## Introduction
 Forex_AlgoTrading is a Forex Strategy Backtest tools based on Event Drive Model。Comparing with MT4,which is the most popular used platform ,Forex_AlgoTrading has several advantages:
@@ -105,6 +104,8 @@ if __name__ == '__main__':
     backtest.simulate_trading()
 
 ```
+The graph including the equity and drawdown curve is shown after the backtest is done.
+![Graph for MA Cross](https://github.com/JadenGu0/Forex_AlgoTrading/blob/master/MA_Cross.png)
 You need to define your startegy class inheriting from Strategy and rewrite the method **On_Bars** where you should implement you  logics for sending the order,modifying the order or closing the orders.
  ### Deme code for parameters optimization
 ```angular2html
