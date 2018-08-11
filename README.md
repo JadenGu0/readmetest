@@ -104,8 +104,11 @@ if __name__ == '__main__':
     backtest.simulate_trading()
 
 ```
-The graph including the equity and drawdown curve is shown after the backtest is done.
-![Graph for MA Cross](https://github.com/JadenGu0/Forex_AlgoTrading/blob/master/MA_Cross.png)
+The graph including the equity and drawdown curve is shown after the backtest is done.\
+![Graph for MA Cross](https://github.com/JadenGu0/Forex_AlgoTrading/blob/master/MA_Cross.png)\
+There is another graph from my own strategy.\
+![Graph for Trend Strategy](https://github.com/JadenGu0/Forex_AlgoTrading/blob/master/Trend.png)
+
 You need to define your startegy class inheriting from Strategy and rewrite the method **On_Bars** where you should implement you  logics for sending the order,modifying the order or closing the orders.
  ### Deme code for parameters optimization
 ```angular2html
